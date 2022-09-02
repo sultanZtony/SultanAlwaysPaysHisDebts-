@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Generic - Phantom by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/investment.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">Ipsum veroeros</a></li>
+							<li><a href="generic.html">Tempus etiam</a></li>
+							<li><a href="generic.html">Consequat dolor</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main --><div id="loancal">
+    <h1>investment Calculator</h1
+        <div class="input">
+
+            <p>Starting Amount: $</p>
+             <input id="amount" type="number" min="1" max="5000000" onchange="computeLoan()">
+            <p>Return Rate: %</p>
+             <input id="return_rate" min="0" max="100" value="10" step=".1" onchange="computeLoan()">
+             <p>Monthly contributions: </p>
+             <input id="Monthly_contributions" min="0" max="1000000" value="1000" step=".1" onchange="computeLoan()">
+            <p>Years: </p>
+             <input id="years" type="number" min="1" max="300" value="1" step="1" onchange="computeLoan()">
+             <h2 id="starter"></h2>
+             <h2 id="Future_investment_value"></h2>
+             <h2 id="Total_contributions"></h2>
+
+           </div>
+
+  </div>
+
+				
+				
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src= "assets/js/investment.js"></script>
+
+	</body>
+</html>
