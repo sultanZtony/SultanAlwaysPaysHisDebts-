@@ -15,7 +15,7 @@ body{
   h1 {
     font-size:30px;
     text-align: center;
-    color: rgb(9, 95, 172);
+    color: rgb(37, 44, 42);
     margin-bottom: 35px;
   }
   .input{
@@ -23,7 +23,7 @@ body{
     margin-right: 40px;
   }
   p{
-  color: rgb(17, 103, 170);
+  color: rgb(37, 44, 42);
   font-size: 17px;
   }
   input{
